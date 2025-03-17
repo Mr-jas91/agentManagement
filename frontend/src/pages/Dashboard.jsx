@@ -17,13 +17,13 @@ export default function Dashboard() {
   useEffect(() => {
     fetchAgentTasks();
   }, []);
-// fetch agent with their tasks
+  // fetch agent with their tasks
   const fetchAgentTasks = async () => {
     try {
       const response = await allLists();
       setAgents(response.data);
     } catch (error) {
-      toast.error("Failed to load agent tasks.");
+      console.error(error);
     } finally {
       setLoading(false);
     }
