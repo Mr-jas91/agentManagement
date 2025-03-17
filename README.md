@@ -66,7 +66,11 @@ npm run dev
 ```
 npm run start
 ```
-
+### User email and password
+```
+email : admin@example.com
+password : admin123
+```
 ## **Conclusion**  
 
 This project successfully implements a **MERN Stack-based system** with key functionalities such as user authentication, agent management, and automated CSV task distribution. By utilizing **React (Vite) for the frontend, Node.js with Express for the backend, and MongoDB for data storage**, the system ensures **scalability, security, and efficiency**.  
